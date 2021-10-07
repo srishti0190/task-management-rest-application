@@ -271,3 +271,8 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
 ```
+
+
+#### Sequence Diagram:
+
+![img.png](img.png)
