@@ -1,0 +1,14 @@
+logging:
+  level: INFO
+  loggers:
+    com.oracle.task.manager: DEBUG
+# Database settings.
+database:
+  # the name of the JDBC driver, mysql in our case
+  driverClass: org.h2.Driver
+  # the username
+  user: sa
+  # the password
+  password:
+  # the JDBC URL; the database is called Hotel2
+  url: jdbc:h2:mem:taskDb
