@@ -51,7 +51,9 @@ http://146.56.54.28:8080/
 
 
  ### PUT /api/v1/tasks/{id}
-
+<details>
+   <summary> <b>Click to view OpenAPI Spec</b> </summary>
+   
 ```
 openapi: 3.0.1
 info:
@@ -110,9 +112,13 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
 ```
+   
+</details>   
 
 ### GET /api/v1/tasks/{id}
-
+<details>
+   <summary> <b>Click to view OpenAPI Spec</b> </summary>
+  
 ```
 openapi: 3.0.1
 info:
@@ -151,8 +157,13 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
 ```
-
+   
+</details>
+   
 ### POST /api/v1/tasks
+   <details>
+   <summary> <b>Click to view OpenAPI Spec</b> </summary>
+  
 ```
 openapi: 3.0.1
 info:
@@ -211,8 +222,12 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
 ```
-
+</details>
+   
 ### GET /api/v1/tasks
+<details>
+   <summary> <b>Click to view OpenAPI Spec</b> </summary>
+  
 ```
 openapi: 3.0.1
 info:
@@ -249,8 +264,13 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
  ```
+   
+</details>   
 
 ### DELETE /api/v1/tasks/{id}
+<details>
+   <summary> <b>Click to view OpenAPI Spec</b> </summary>
+  
 ```
 openapi: 3.0.1
 info:
@@ -271,3 +291,5 @@ paths:
     servers:
       - url: http://146.56.52.190:8080
 ```
+</details>   
+   
